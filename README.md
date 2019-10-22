@@ -13,7 +13,7 @@ php1
 
 ``docker run --net docnet --ip 172.10.1.21 -p 81:80 -v ~/nginx_lb/php1/:/var/www/html/ --name php1 -h php1.nginx.lab -dit richarvey/nginx-php-fpm``
 
-I created two additional folders, php2 and php3 and modify line 2 to read Web 2 and Web 3
+I created two additional folders, php2 and php3 and modify line 2 on index.php to read "Web 2" and "Web 3"
 
 lb_php
 
