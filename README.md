@@ -6,7 +6,7 @@ Docker images used
 * NGINX PLUS              {load balancer}
 
 
-Download the Nginx [Dockerfile](https://github.com/dockerfile/nginx) and place the Dockerfile and your nginx-repo.cert and nginx-repo.key in the docker directory
+Download the Nginx [Dockerfile](https://github.com/dockerfile/nginx) and place the Dockerfile and your nginx-repo.cert and nginx-repo.key in the nginx directory
 
 Build a docker network 
 ``docker network create --subnet=172.10.1.0/24 docnet``
