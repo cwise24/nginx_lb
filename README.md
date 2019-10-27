@@ -29,3 +29,5 @@ I created two additional folders, php2 and php3 and modify line 2 on index.php t
 lb_php
 
 ``docker run --net docnet --ip 172.10.1.20 -p 8081:80 -v ~/nginx_lb/lb_php/:/etc/nginx/conf.d/lb_php.conf --name lb_php -h lb_php.nginx.lab -dit nginx``
+
+![webpage](nginx_lb.png)
