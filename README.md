@@ -1,4 +1,4 @@
-# nginx_lb
+# NGINX Plus as load balancer
 Basic demo with proxy and XFF
 
 Docker images used
@@ -13,7 +13,7 @@ Download the NGINX [Dockerfile](https://www.nginx.com/blog/deploying-nginx-nginx
 Build a docker network 
 ``docker network create --subnet=172.10.1.0/24 docnet``
 
-Create Upstreams:
+# Create Upstreams:
 
 php1
 
@@ -28,7 +28,7 @@ php3
 ``docker run --net docnet --ip 172.10.1.23 -p 83:80 -v ~/nginx_lb/php3/:/var/www/html/ --name php3 -h php3.nginx.lab -dit richarvey/nginx-php-fpm``
 
 
-NGINX as a load balancer:
+# NGINX as a load balancer:
 
 lb_php
 
