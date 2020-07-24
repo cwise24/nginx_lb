@@ -6,6 +6,8 @@ Docker images used
 * NGINX PLUS              {load balancer}
 
 
+Sign up for your free NGINX tiral [here](https://www.nginx.com/free-trial-request/). Once you recieve your email, follow the link to activate your 30 day trial. Download both the Certificate and Key files.
+
 Download the Nginx [Dockerfile](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/) and place the Dockerfile and your nginx-repo.cert and nginx-repo.key in the nginx directory
 
 Build a docker network 
