@@ -50,4 +50,6 @@ lb_php
 
 ## Page
 
+Notice on top left is XFF, this is the X-Forwarded-For header inserted and to the top right will be the upstream container we are sending traffic to.
+
 ![webpage](imgs/nginx_lb.png)
