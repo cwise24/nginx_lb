@@ -11,7 +11,7 @@ Docker images used
 
 ## Prerequisites 
 
-![Docker](https://docs.docker.com/get-docker/)
+[Docker(https://docs.docker.com/get-docker/)]
 
 Sign up for your free NGINX tiral [here](https://www.nginx.com/free-trial-request/). Once you recieve your email, follow the link to activate your 30 day trial. Download both the Certificate and Key files.
 
