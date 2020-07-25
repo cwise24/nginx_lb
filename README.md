@@ -9,18 +9,22 @@ Docker images used
 * NGINX PLUS              {load balancer}
 
 
-## Prerequisites 
+# Prerequisites 
 
-[Docker](https://docs.docker.com/get-docker/)
+## Docker
+Install Docker engine [here](https://docs.docker.com/get-docker/)
 
+
+## NGINX Plus
 Sign up for your free NGINX tiral [here](https://www.nginx.com/free-trial-request/). Once you recieve your email, follow the link to activate your 30 day trial. Download both the Certificate and Key files.
 
 Download the NGINX [Dockerfile](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/) and place the Dockerfile and your nginx-repo.cert and nginx-repo.key in the nginx directory
 
+## Create Docker Network (Optional)
 Build a docker network 
 ``docker network create --subnet=172.10.1.0/24 docnet``
 
-# Create Upstreams: Our backend servers
+## Create Upstreams: Our backend servers
 
 php1
 
