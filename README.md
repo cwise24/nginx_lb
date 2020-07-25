@@ -39,7 +39,7 @@ php3
 ``docker run --net docnet --ip 172.10.1.23 -p 83:80 -v ~/nginx_lb/php3/:/var/www/html/ --name php3 -h php3.nginx.lab -dit richarvey/nginx-php-fpm``
 
 
-# NGINX as a load balancer: Reverse Proxy with Health Monitor
+## NGINX Plus as a load balancer
 
 lb_php
 
