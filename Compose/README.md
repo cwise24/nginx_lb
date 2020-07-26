@@ -2,9 +2,13 @@
 
 This is the complete demo built using docker-compose. You will need to add your trial certificate and key to the **builder** directory.
 
-## Create Docker Network (Mandatory unless you adjust the network statements in the compose file)
+## Create Docker Network (Optional)
 Build a docker network <br/>
 ``docker network create --driver=bridge --gateway=172.10.1.1 --subnet=172.10.1.0/24 docnet``
+
+Creating a network with Compose is optional as docker compose will form a 'DNS' like service. In this example, you can address the service by it's name:
+ - proxy
+ - web1, web2, web3
 
 ## docker-compose.yml
 
