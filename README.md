@@ -21,7 +21,7 @@ Sign up for your free NGINX tiral [here](https://www.nginx.com/free-trial-reques
 
 Download the NGINX [Dockerfile](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/) and place the Dockerfile and your nginx-repo.cert and nginx-repo.key in the nginx directory
 
-## Create Docker Network (Optional)
+## Create Docker Network (must define network so we can point to backend services)
 Build a docker network <br/>
 ``docker network create --driver=bridge --gateway=172.10.1.1 --subnet=172.10.1.0/24 docnet``
 
