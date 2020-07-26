@@ -25,6 +25,10 @@ Download the NGINX [Dockerfile](https://www.nginx.com/blog/deploying-nginx-nginx
 Build a docker network <br/>
 ``docker network create --driver=bridge --gateway=172.10.1.1 --subnet=172.10.1.0/24 docnet``
 
+How do I see my containers IP Address?
+
+`docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id`
+
 ## Create Upstreams: Our backend servers
 
 php1
