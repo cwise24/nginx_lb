@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+div.banner {
+	margin-top:2%;
+	width: 100%;
+	height: 15px;
+	text-align: center;
+	background:green;
+}
+
+span.r {
+ float: right;
+ text-align: right;
+ width: 40%;
+ height: 30px;
+}
+
+span.l {
+ float: left;
+ width: 40%;
+ height: 30px;
+}
+
+div.boxr {
+ float: left;
+ position: absolute;
+ margin-top: 10%;
+ height: 370px;
+ font-size: 22em;
+ margin-left: 15%;
+ border: solid;
+}
+
+div.image {
+	margin-top: 5%;
+	margin-left: 39%;
+	border: thick orange;
+}
+
+span.img_foot {
+	margin-left: 45%;
+	text-align: center;
+	border: solid green;
+}
