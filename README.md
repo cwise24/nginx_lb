@@ -14,6 +14,7 @@ Docker images used
 ## Docker
 Install Docker engine [here](https://docs.docker.com/get-docker/)
 
+Need a Docker intro? [Docker 101](https://slides.com/cwise24/slides-for-developers) is my Docker intro class.
 
 ## NGINX Plus
 Sign up for your free NGINX tiral [here](https://www.nginx.com/free-trial-request/). Once you recieve your email, follow the link to activate your 30 day trial. Download both the Certificate and Key files.
