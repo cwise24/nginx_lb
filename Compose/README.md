@@ -10,6 +10,10 @@ Creating a network with Compose is optional as docker compose will form a 'DNS' 
  - proxy
  - web1, web2, web3
 
+How do I see my containers IP Address?
+
+`docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id`
+
 ## docker-compose.yml
 
 In this file we again define each service, ports, volumes and custom network. If you notice the proxy service we don't use the default image, we build a customer docker image. `context` points use to the path of our dockerfile and `dockerfile` is our file name, in this case *Dockerfile*.
