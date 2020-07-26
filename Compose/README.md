@@ -1,6 +1,6 @@
 # Docker Compose
 
-This is the complete demo built using docker-compose. You will need to add your trial certificate and key to the builder directory.
+This is the complete demo built using docker-compose. You will need to add your trial certificate and key to the *builder* directory.
 
 ## Create Docker Network (Mandatory unless you adjust the network statements in the compose file)
 Build a docker network <br/>
