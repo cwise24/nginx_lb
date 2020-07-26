@@ -23,7 +23,7 @@ Download the NGINX [Dockerfile](https://www.nginx.com/blog/deploying-nginx-nginx
 
 ## Create Docker Network (Optional)
 Build a docker network 
-``docker network create --subnet=172.10.1.0/24 docnet``
+``docker network create --gateway 172.10.1.1 --subnet 172.10.1.0/24 docnet``
 
 ## Create Upstreams: Our backend servers
 
