@@ -3,7 +3,7 @@
 This is the complete demo built using docker-compose. You will need to add your trial certificate and key to the builder directory.
 
 ## Create Docker Network (Mandatory unless you adjust the network statements in the compose file)
-Build a docker network 
+Build a docker network <br/>
 ``docker network create --driver=bridge --gateway=172.10.1.1 --subnet=172.10.1.0/24 docnet``
 
 ## docker-compose.yml
