@@ -58,3 +58,7 @@ MAINT MODE
 PROD MODE
 </body>
 ```
+
+# Prometheus
+
+![Prometheus_target](../imgs/Prom_target.png)
