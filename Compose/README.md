@@ -2,6 +2,10 @@
 
 This is the complete demo built using docker-compose. You will need to add your trial certificate and key to the **builder** directory.
 
+## Lab Design
+
+![prometheus_nginx+](../imgs/prom_lab.png)
+
 ## Create Docker Network (Optional)
 Build a docker network <br/>
 ``docker network create --driver=bridge --gateway=172.10.1.1 --subnet=172.10.1.0/24 docnet``
