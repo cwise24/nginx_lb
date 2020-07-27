@@ -33,3 +33,24 @@ services:
       docnet:
         ipv4_address: 172.10.1.20
 ```
+
+# Access the api
+
+`localhost:8081/api/6/`
+
+View health:
+
+`http://localhost:8081/api/6/http/upstreams/members/`
+
+Here we see **web3** a state of unhealthy. If you navigate to the main branch and update the file `maint.html` in **php3** **FROM**:
+```
+<body>
+MAINT MODE
+</body>
+```
+**TO**
+```
+<body>
+PROD MODE
+</body>
+```
