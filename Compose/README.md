@@ -62,3 +62,7 @@ PROD MODE
 # Prometheus
 
 ![Prometheus_target](../imgs/Prom_target.png)
+
+![Prometheus_unhealthy](../imgs/unhealthy.png)
+
+![Prometheus_graph](../imgs/graph.png)
