@@ -34,7 +34,11 @@ services:
         ipv4_address: 172.10.1.20
 ```
 
-# Access the api
+# NGINX OSS Health
+
+![nginx_oss](../imgs/doc_status)
+
+# NGINX Plus: Access the api
 
 `localhost:8081/api/6/`
 
