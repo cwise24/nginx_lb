@@ -2,7 +2,9 @@
 
 
 # NGINX Plus 
-Basic demo with proxy and XFF
+Basic demo with proxy to three upstreams containers. To run this same lab with Docker Compose please go to the [Compose](https://github.com/cwise24/nginx_lb/tree/master/Compose) folder.
+
+The Docker Compose version also uses Prometheus to report and visualize NGINX Plus health metrics from it's API.
 
 Docker images used
 * richarvey/nginx-php=fpm {upstreams}
@@ -14,7 +16,7 @@ Docker images used
 ## Docker
 Install Docker engine [here](https://docs.docker.com/get-docker/)
 
-Need a Docker intro? [Docker 101](https://slides.com/cwise24/slides-for-developers) is my Docker intro class.
+Need a Docker intro? [Docker 101](https://slides.com/cwise24/slides-for-developers)
 
 ## NGINX Plus
 Sign up for your free NGINX tiral [here](https://www.nginx.com/free-trial-request/). Once you recieve your email, follow the link to activate your 30 day trial. Download both the Certificate and Key files.
