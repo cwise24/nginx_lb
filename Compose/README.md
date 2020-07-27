@@ -42,6 +42,8 @@ services:
 
 `localhost:8081/api/6/`
 
+![api](../imgs/plus_api.png)
+
 View health:
 
 `http://localhost:8081/api/6/http/upstreams/members/`
