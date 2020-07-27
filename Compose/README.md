@@ -13,6 +13,8 @@ Build a docker network <br/>
 Creating a network with Compose is optional as docker compose will form a 'DNS' like service. In this example, you can address the service by it's name:
  - proxy
  - web1, web2, web3
+ - promEx {nginx-prometheus-exporter}
+ - prometheus
 
 How do I see my containers IP Address?
 
