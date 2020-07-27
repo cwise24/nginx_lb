@@ -36,7 +36,7 @@ services:
 
 # NGINX OSS Health
 
-![nginx_oss](../imgs/doc_status)
+![nginx_oss](../imgs/doc_status.png)
 
 # NGINX Plus: Access the api
 
