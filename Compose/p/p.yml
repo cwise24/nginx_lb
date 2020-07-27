@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: 'proxy_health'
+    scrape_interval: 30s
+    metrics_path: '/prometheus'
+    static_configs:
+      - targets: ['promEx:9113']

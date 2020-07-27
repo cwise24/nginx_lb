@@ -43,6 +43,28 @@ services:
       - "83:80"
     networks:
       - docnet
+  
+  exporter:
+    container_name: promEx
+    image: nginx/nginx-prometheus-exporter:latest
+    environment:
+      - SCRAPE_URI=http://nginx_lb/api
+      - TELEMETRY_PATH=/prometheus
+      - NGINX_RETRIES=10
+      - NGINX_PLUS=true
+    networks:
+      - docnet
+
+  prom:
+    container_name: prometheus
+    image: prom/prometheus
+    volumes:
+      - ./p/p.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - docnet
+
 
 networks:
   docnet:
